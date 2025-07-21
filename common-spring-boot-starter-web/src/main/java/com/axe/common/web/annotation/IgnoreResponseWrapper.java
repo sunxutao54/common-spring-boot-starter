@@ -1,0 +1,17 @@
+package com.axe.common.web.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/**
+ * @Description: TODO
+ * @Date: 2025/7/21
+ * @Author: Sxt
+ * @Version: v1.0
+ */
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface IgnoreResponseWrapper {
+}
