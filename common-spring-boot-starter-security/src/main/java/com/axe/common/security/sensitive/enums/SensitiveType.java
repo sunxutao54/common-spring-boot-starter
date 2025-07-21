@@ -1,4 +1,4 @@
-package com.axe.common.sensitive.enums;
+package com.axe.common.security.sensitive.enums;
 
 /**
  * @Description: TODO

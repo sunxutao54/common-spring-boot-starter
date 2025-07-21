@@ -15,9 +15,9 @@
         <module>common-spring-boot-starter-mybatis</module>
         <module>common-spring-boot-starter-thread</module>
         <module>common-spring-boot-starter-snowflake</module>
-        <module>common-spring-boot-starter-sensitive</module>
         <module>common-spring-boot-starter-web</module>
         <module>common-spring-boot-starter-all</module>
+        <module>common-spring-boot-starter-security</module>
     </modules>
 
     <properties>
@@ -29,6 +29,8 @@
         <mybatis-plus.version>3.5.5</mybatis-plus.version>
         <http-client.version>5.3.1</http-client.version>
         <Json.version>2.0.0</Json.version>
+        <jackson.version>2.15.2</jackson.version>
+        <bcprov.version>1.78.1</bcprov.version>
     </properties>
 
     <dependencyManagement>
@@ -77,6 +79,17 @@
                 <groupId>com.alibaba.fastjson2</groupId>
                 <artifactId>fastjson2</artifactId>
                 <version>${Json.version}</version>
+            </dependency>
+            <!-- Jackson 核心依赖 -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk18on</artifactId>
+                <version>${bcprov.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

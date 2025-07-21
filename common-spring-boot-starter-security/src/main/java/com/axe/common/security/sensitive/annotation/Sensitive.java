@@ -1,7 +1,7 @@
-package com.axe.common.sensitive.annotation;
+package com.axe.common.security.sensitive.annotation;
 
-import com.axe.common.sensitive.enums.SensitiveType;
-import com.axe.common.sensitive.serializer.DesensitizeSerializer;
+import com.axe.common.security.sensitive.enums.SensitiveType;
+import com.axe.common.security.sensitive.serializer.DesensitizeSerializer;
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 

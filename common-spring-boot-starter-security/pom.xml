@@ -9,7 +9,7 @@
         <version>1.1.0</version>
     </parent>
 
-    <artifactId>common-spring-boot-starter-sensitive</artifactId>
+    <artifactId>common-spring-boot-starter-security</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -27,7 +27,15 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.15.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk18on</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 </project>
