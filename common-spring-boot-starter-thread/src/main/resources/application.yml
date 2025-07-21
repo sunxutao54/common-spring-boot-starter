@@ -1,0 +1,11 @@
+axe:
+  thread-pool:
+    core-size: 8
+    max-size: 20
+    queue-capacity: 100
+    keep-alive-seconds: 120
+    thread-name-prefix: "axe-task-"
+    await-termination-seconds: 45
+    wait-for-tasks: true
+    retry-queue-capacity: 100
+    max-retries: 3
