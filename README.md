@@ -14,9 +14,11 @@
 - 包含自定义 SQL 注入器 `InsertBatchSqlInjector`。
 - 提供基础 Mapper 接口 `AxeBaseMapper` 和基础服务类 `AxeServiceImpl`。
 
-### common-spring-boot-starter-sensitive
+### common-spring-boot-starter-security
 - 提供敏感数据处理支持，通过 `@Sensitive` 注解实现字段脱敏。
-- 支持多种脱敏类型，如手机号、邮箱等。
+  - 支持多种脱敏类型，如手机号、邮箱等。
+- 提供数据加密支持，通过 `@Encrypt` 注解实现字段加密。
+  - 加密算法包含：Argon2、BCrypt。
 
 ### common-spring-boot-starter-snowflake
 - 提供雪花 ID 生成器 `SnowflakeIdGenerator`。
