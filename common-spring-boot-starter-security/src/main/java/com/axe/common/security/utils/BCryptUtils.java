@@ -1,4 +1,4 @@
-package com.axe.common.security.encrypt.utils;
+package com.axe.common.security.utils;
 
 import com.axe.common.core.utils.StringUtils;
 

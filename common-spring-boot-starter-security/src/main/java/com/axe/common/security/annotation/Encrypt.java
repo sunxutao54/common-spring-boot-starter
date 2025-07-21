@@ -1,6 +1,6 @@
-package com.axe.common.security.encrypt.annotation;
+package com.axe.common.security.annotation;
 
-import com.axe.common.security.encrypt.enums.EncryptType;
+import com.axe.common.security.enums.EncryptType;
 
 import java.lang.annotation.*;
 

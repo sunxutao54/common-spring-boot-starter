@@ -1,10 +1,10 @@
 package com.axe.common.security.interceptor;
 
 import com.axe.common.core.utils.StringUtils;
-import com.axe.common.security.encrypt.annotation.Encrypt;
-import com.axe.common.security.encrypt.enums.EncryptType;
-import com.axe.common.security.encrypt.utils.Argon2Utils;
-import com.axe.common.security.encrypt.utils.BCryptUtils;
+import com.axe.common.security.annotation.Encrypt;
+import com.axe.common.security.utils.Argon2Utils;
+import com.axe.common.security.utils.BCryptUtils;
+import com.axe.common.security.enums.EncryptType;
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.SqlCommandType;

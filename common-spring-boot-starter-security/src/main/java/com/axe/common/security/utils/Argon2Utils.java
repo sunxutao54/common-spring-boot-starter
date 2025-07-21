@@ -1,4 +1,4 @@
-package com.axe.common.security.encrypt.utils;
+package com.axe.common.security.utils;
 
 import org.bouncycastle.crypto.generators.Argon2BytesGenerator;
 import org.bouncycastle.crypto.params.Argon2Parameters;

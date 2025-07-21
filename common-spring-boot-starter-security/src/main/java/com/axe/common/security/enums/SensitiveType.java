@@ -1,7 +1,7 @@
-package com.axe.common.security.sensitive.enums;
+package com.axe.common.security.enums;
 
 /**
- * @Description: TODO
+ * @Description: TODO 脱敏字段类型
  * @Date: 2025/7/17
  * @Author: Sxt
  * @Version: v1.0

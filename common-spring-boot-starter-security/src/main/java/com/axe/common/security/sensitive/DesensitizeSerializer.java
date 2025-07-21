@@ -1,9 +1,9 @@
-package com.axe.common.security.sensitive.serializer;
+package com.axe.common.security.sensitive;
 
 import com.axe.common.core.constant.CommonConstant;
 import com.axe.common.core.utils.StringUtils;
-import com.axe.common.security.sensitive.annotation.Sensitive;
-import com.axe.common.security.sensitive.enums.SensitiveType;
+import com.axe.common.security.annotation.Sensitive;
+import com.axe.common.security.enums.SensitiveType;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.BeanProperty;
 import com.fasterxml.jackson.databind.JsonMappingException;

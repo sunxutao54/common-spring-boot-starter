@@ -1,7 +1,7 @@
-package com.axe.common.security.encrypt.enums;
+package com.axe.common.security.enums;
 
 /**
- * @Description: TODO
+ * @Description: TODO 加密类型枚举
  * @Date: 2025/7/21
  * @Author: Sxt
  * @Version: v1.0
