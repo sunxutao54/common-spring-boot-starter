@@ -1,0 +1,4 @@
+axe:
+  snowflake:
+    worker-id: 1
+    datacenter-id : 1
