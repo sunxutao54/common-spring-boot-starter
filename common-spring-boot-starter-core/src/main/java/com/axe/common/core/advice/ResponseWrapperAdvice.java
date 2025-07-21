@@ -1,7 +1,7 @@
-package com.axe.common.web.advice;
+package com.axe.common.core.advice;
 
+import com.axe.common.core.annotation.IgnoreResponseWrapper;
 import com.axe.common.core.api.R;
-import com.axe.common.web.annotation.IgnoreResponseWrapper;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 /**
- * @Description: TODO
+ * @Description: TODO 统一返回结果
  * @Date: 2025/7/21
  * @Author: Sxt
  * @Version: v1.0

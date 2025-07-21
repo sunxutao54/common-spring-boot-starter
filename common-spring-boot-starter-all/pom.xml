@@ -38,11 +38,6 @@
             <artifactId>common-spring-boot-starter-security</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.axe</groupId>
-            <artifactId>common-spring-boot-starter-web</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
 
 </project>

@@ -3,7 +3,7 @@ package com.axe.common.core.constant;
 import java.util.regex.Pattern;
 
 /**
- * @Description: TODO
+ * @Description: TODO 常量类
  * @Date: 2025/7/9
  * @Author: Sxt
  * @Version: v1.0

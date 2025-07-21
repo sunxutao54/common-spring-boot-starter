@@ -15,7 +15,6 @@
         <module>common-spring-boot-starter-mybatis</module>
         <module>common-spring-boot-starter-thread</module>
         <module>common-spring-boot-starter-snowflake</module>
-        <module>common-spring-boot-starter-web</module>
         <module>common-spring-boot-starter-all</module>
         <module>common-spring-boot-starter-security</module>
     </modules>

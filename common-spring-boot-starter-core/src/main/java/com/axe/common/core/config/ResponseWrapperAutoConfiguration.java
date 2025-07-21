@@ -1,13 +1,13 @@
-package com.axe.common.web.config;
+package com.axe.common.core.config;
 
-import com.axe.common.web.advice.GlobalExceptionHandler;
-import com.axe.common.web.advice.ResponseWrapperAdvice;
+import com.axe.common.core.advice.GlobalExceptionHandler;
+import com.axe.common.core.advice.ResponseWrapperAdvice;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Description: TODO
+ * @Description: TODO 全局返回值配置全局异常配置
  * @Date: 2025/7/21
  * @Author: Sxt
  * @Version: v1.0

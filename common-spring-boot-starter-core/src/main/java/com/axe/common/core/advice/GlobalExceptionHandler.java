@@ -1,4 +1,4 @@
-package com.axe.common.web.advice;
+package com.axe.common.core.advice;
 
 import com.axe.common.core.api.R;
 import com.axe.common.core.constant.CommonConstant;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
- * @Description: TODO
+ * @Description: TODO 统一异常处理
  * @Date: 2025/7/21
  * @Author: Sxt
  * @Version: v1.0
