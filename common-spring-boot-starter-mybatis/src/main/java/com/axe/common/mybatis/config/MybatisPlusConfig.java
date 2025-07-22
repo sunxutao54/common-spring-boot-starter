@@ -21,9 +21,9 @@ public class MybatisPlusConfig{
     @ConditionalOnMissingBean
     public MybatisPlusInterceptor mybatisPlusInterceptor() {
         MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
-        //添加分页插件
+        // 添加分页插件
         interceptor.addInnerInterceptor(new PaginationInnerInterceptor());
-        //添加乐观锁插件
+        // 添加乐观锁插件
         interceptor.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
         return interceptor;
     }

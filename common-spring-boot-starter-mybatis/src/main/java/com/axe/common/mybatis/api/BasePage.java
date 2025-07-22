@@ -1,23 +1,25 @@
-package com.axe.common.core.api;
+package com.axe.common.mybatis.api;
 
 /**
- * @Description: TODO 通用分页参数类
- * @Date: 2025/7/9
+ * @Description: TODO 分页模型
+ * @Date: 2025/7/22
  * @Author: Sxt
  * @Version: v1.0
  */
 public class BasePage {
 
-    /**
-     * 页码
-     */
     private Integer pageNum = 1;
 
-    /**
-     * 每页条数
-     */
     private Integer pageSize = 20;
 
+    public BasePage() {
+
+    }
+
+    public BasePage(Integer pageNum, Integer pageSize) {
+        this.pageNum = pageNum;
+        this.pageSize = pageSize;
+    }
 
     public Integer getPageNum() {
         return pageNum;
@@ -34,4 +36,10 @@ public class BasePage {
     public void setPageSize(Integer pageSize) {
         this.pageSize = pageSize;
     }
-}
+
+    public <T> PageEntity<T> ofPage(Class<T> clazz) {
+        PageEntity<T> pageEntity = new PageEntity<>(this);
+        pageEntity.setEntityClass(clazz);
+        return pageEntity;
+    }
+ }
